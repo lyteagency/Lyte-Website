@@ -28,11 +28,12 @@ ol[role="list"] {
 /* Set core root defaults */
 html {
   scroll-behavior: smooth;
+  height: -webkit-fill-available;
 }
 
 /* Set core body defaults */
 body {
-  height: 100vh;
+  min-height: -webkit-fill-available;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: 'Lato', sans-serif;
