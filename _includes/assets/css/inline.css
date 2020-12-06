@@ -34,7 +34,7 @@ html {
 /* Set core body defaults */
 body {
   height: 100vh;
-  height: -webkit-fill-available;
+  max-height: -webkit-fill-available;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: 'Lato', sans-serif;
