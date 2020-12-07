@@ -245,7 +245,7 @@ p {
   width: min(100%, 700px);
 }
 .heading-hero {
-  font-size: min(15vw, 7rem);
+  font-size: min(13vw, 7rem);
   font-weight: 700;
 }
 
@@ -323,7 +323,7 @@ p {
 
 /* Hero */
 .hero {
-  height: max(777px, 100vh);
+  height: max(667px, 100vh);
 }
 
 /* Link Nav */
@@ -562,7 +562,7 @@ and (orientation: portrait) {
 
 @media only screen and (max-device-width: 1024px) { 
   .row {
-      grid-template-columns: repeat(auto-fit, minmax(459px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   .half-image {
       display: none;
@@ -582,6 +582,6 @@ and (orientation: portrait) {
 }
 @media only screen and (max-device-width: 1280px) { 
   .heading-hero {
-      font-size: min(15vw, 5rem);
+      font-size: min(13vw, 5rem);
   }
 }
