@@ -3,7 +3,245 @@ layout: layouts/base.njk
 section: home
 ---
 
-<main class="text-center">
-    <img class="p-1" src="static/img/logo.svg">
-    <p class="p-1 text-lg">Almost Ready :)</p>
-</main>
+<div class="wrapper bg-white">
+    <section class="hero p-4 d-flex flex-col">
+        <header class="d-flex flex-row justify-space-between">
+            <a href="#" class="logo link-unstyled">
+                <img src="static/img/lyte-logo.svg" alt="logo">
+            </a>
+
+            <nav class="d-flex align-items-center link-nav">
+                <ul class="d-flex flex-row list-unstyled">
+                    <li class="ml-2 cl-effect-1 active"><a href="#">Home </a></li>
+                    <li class="ml-2 cl-effect-1"><a href="#about">About</a></li>
+                    <li class="ml-2 cl-effect-1"><a href="#services">Services</a></li>
+                    <li class="ml-2 cl-effect-1"><a href="#work">Work</a></li>
+                    <li class="ml-2 cl-effect-1"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="flex-grow d-grid center-content">
+            <div class="text-center" 
+                data-sal="slide-up"
+                data-sal-duration="2000"
+                data-sal-delay="300"
+                data-sal-easing="ease-out-back">
+                <h1 class="heading-hero kern-in mb-2 px-1">Need Inspiration?</h1>
+                <p class="lead mb-3">Allow us to unburden you of your creative headaches.</p>
+                <a href="#contact" class="btn" data-text="Yes Please!">
+                    <span>Yes Please!</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-10">
+        <div class="container">
+            <div class="row">
+                <div class="col"
+                    data-sal="slide-up"
+                    data-sal-duration="2000"
+                    data-sal-delay="300"
+                    data-sal-easing="ease-out-back">
+                    <h2 class="mb-0">We craft creativity for all our clients</h2>
+                </div>
+                <div class="col pt-1"
+                    data-sal="slide-up"
+                    data-sal-duration="2000"
+                    data-sal-delay="500"
+                    data-sal-easing="ease-out-back">
+                    <p>Our websites are carefully designed to match and hopefully exceed each of our customers expectations and requirements. We listen to our clients and assess thier needs so we can come up with a solution that not only works for them but also looks and feels great.</p>
+                    <p class="mb-0">We are a firm believer that websites dont need to be clunky overweight behemouths. We find that most of our customers clients want speed and simplicty, and that is exactly what we provide.</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <!-- About -->
+    <section class="bg-dark half-image" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col py-10">
+                    <div data-sal="slide-up"
+                    data-sal-duration="2000"
+                    data-sal-delay="300"
+                    data-sal-easing="ease-out-back">
+                        <h2 class="bg-text">About</h2>
+                        <p class="lead">We are a web design and development agency with over 10 years of experience in the industry working across a range of different sectors and projects.</p>
+                        <p>We are experts in every aspect of the development lifecycle including initial design and concepts, frontend template development, backend content management systems integration and everything in between.</p>
+                        <a href="#contact" class="btn btn-sm btn-light" data-text="Get in touch">
+                            <span>Get in touch</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-10 services" id="services">
+        <div class="container">
+            <div class="text-center"
+                data-sal="slide-up"
+                data-sal-duration="2000"
+                data-sal-delay="300"
+                data-sal-easing="ease-out-back">
+                <h2>Services</h2>
+                <p class="lead">Our core services are web design & development</p>
+            </div>
+            <div class="row px-3">
+                <div class="col">
+                    <div class="p-2 service"
+                        data-sal="slide-up"
+                        data-sal-duration="2000"
+                        data-sal-delay="300"
+                        data-sal-easing="ease-out-back">
+                        <div class="bg-white border border-radius shadow p-3 text-center">
+                            <h3>Design</h3>
+                            <p class="mb-3">We design unique and custom websites brimming with intricate detail.</p>
+                            <img class="mb-3" src="static/img/web-design.svg" alt="Web Design">
+                            <a href="#contact" class="btn btn-fill btn-sm" data-text="Find Out More">
+                                <span>Find Out More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-2 service"
+                        data-sal="slide-up"
+                        data-sal-duration="2000"
+                        data-sal-delay="300"
+                        data-sal-easing="ease-out-back">
+                        <div class="bg-white border border-radius shadow p-3 text-center">
+                            <h3>Development</h3>
+                            <p class="mb-3">We use modern tools and methods to produce high quality codebases.</p>
+                            <img class="mb-3" src="static/img/web-dev.svg" alt="Web Dev">
+                            <a href="#contact" class="btn btn-fill btn-sm" data-text="Find Out More">
+                                <span>Find Out More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section class="bg-dark py-10" id="work">
+        <div class="container">
+            <div class="h2-bg"
+                data-sal="slide-up"
+                data-sal-duration="2000"
+                data-sal-delay="300"
+                data-sal-easing="ease-out-back">
+                <h2 class="bg-text">Work</h2>
+                <p class="lead">Check out our favourite projects that we worked on.</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div data-sal="slide-up"
+                    data-sal-duration="2000"
+                    data-sal-delay="300"
+                    data-sal-easing="ease-out-back">
+                        <a href="#" class="work-item">
+                            <img src="static/img/giant.png" alt="Giant Outdoors">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div data-sal="slide-up"
+                    data-sal-duration="2000"
+                    data-sal-delay="500"
+                    data-sal-easing="ease-out-back">
+                        <a href="#" class="work-item">
+                            <img src="static/img/you-commerce.png" alt="You Commerce">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div data-sal="slide-up"
+                    data-sal-duration="2000"
+                    data-sal-delay="500"
+                    data-sal-easing="ease-out-back">
+                        <a href="#" class="work-item">
+                            <img src="static/img/clear-skincare.png" alt="Clear Skincare">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div> 
+
+<!-- Footer -->
+<footer class="main-footer py-10 bg-light" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="text-center"
+                data-sal="slide-up"
+                data-sal-duration="2000"
+                data-sal-delay="300"
+                data-sal-easing="ease-out-back">
+                <h2>Contact</h2>
+                <p class="lead">Send us your details and we will be in touch.</p>
+            </div>
+        </div>
+        <div class="row">
+            <form name="contact" method="POST" data-netlify="true" class="justify-center py-2" 
+                data-sal="slide-up"
+                data-sal-duration="2000"
+                data-sal-delay="300"
+                data-sal-easing="ease-out-back">
+                <div class="row">
+                    <div class="form-item">
+                        <input class="empty" type="text" id="firstName" name="first_name">
+                        <label for="firstName">First Name</label>
+                    </div>
+                    <div class="form-item">
+                        <input class="empty" type="text" id="lastName" name="last_name">
+                        <label for="lastName">Last Name</label>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="form-item">
+                        <input class="empty" type="text" id="companyName" name="company_name">
+                        <label for="companyName">Company Name</label>
+                    </div>
+                </div> -->
+                <div class="row">
+                    <div class="form-item">
+                        <input class="empty" type="email" id="emailAddress" name="email_address">
+                        <label for="emailAddress">Email Address</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-item">
+                        <textarea class="empty" name="enquiy" id="enquiry" cols="30" rows="10"></textarea>
+                        <label for="enquiry">Enquiry</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <button type="submit" class="btn btn-sm btn-block" data-text="Send It!">
+                        <span>Send!</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="row" 
+            data-sal="slide-up"
+            data-sal-duration="2000"
+            data-sal-delay="300"
+            data-sal-easing="ease-out-back">
+            <div class="col pt-2 text-center line-clamp justify-center lead">
+                <p>Alternatively you can email us directly and we will get back to you asap.</p>
+                <a class="kern-out" href="mailto:hello@lyteagency.com">hello@lyteagency.com</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<section class="py-4 bg-dark color-gray text-center">
+    <p class="mb-0">&copy; 2020 Lyte Agency Ltd. All rights reserved</p>
+</section>

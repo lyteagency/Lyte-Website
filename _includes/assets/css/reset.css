@@ -28,18 +28,13 @@ ol[role="list"] {
 /* Set core root defaults */
 html {
   scroll-behavior: smooth;
-  height: -webkit-fill-available;
 }
 
 /* Set core body defaults */
 body {
-  height: 100vh;
-  max-height: -webkit-fill-available;
+  min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: 'Lato', sans-serif;
-  color: #565758;
-  font-size: 18px;
 }
 
 /* A elements that don't have a class get default styles */
@@ -60,30 +55,6 @@ button,
 textarea,
 select {
   font: inherit;
-}
-
-/* center */
-.h-100 {
-	height: 100%;
-}
-.w-100 {
-	height: 100%;
-}
-.d-grid {
-	display: grid;
-}
-.center-items {
-	text-align: center;
-	place-items: center;
-}
-.text-center {
-	text-align: center;
-}
-.p-1 {
-	padding: 1rem;
-}
-.text-lg {
-	font-size: 24px;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */

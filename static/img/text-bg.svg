@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2519px" height="2250px" viewBox="0 0 2519 2250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="2517" height="2248"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-9" transform="translate(1.000000, 1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Rectangle" stroke="#979797" fill="#FC9A4C" xlink:href="#path-1"></use>
+            <circle id="Oval-2" stroke="#979797" fill="#FC9A4C" mask="url(#mask-2)" cx="1215.5" cy="1367.5" r="1066.5"></circle>
+            <circle id="Oval" fill="#3AB359" mask="url(#mask-2)" cx="72" cy="-349" r="1644"></circle>
+            <circle id="Oval" fill="#3AB359" mask="url(#mask-2)" cx="2648.5" cy="1925.5" r="699.5"></circle>
+            <circle id="Oval" fill="#6CC0F1" mask="url(#mask-2)" cx="72" cy="2284" r="1215"></circle>
+            <circle id="Oval" fill="#956BF4" mask="url(#mask-2)" cx="2142" cy="394" r="1010"></circle>
+            <circle id="Oval" fill="#E068C2" mask="url(#mask-2)" cx="1526.5" cy="2301.5" r="657.5"></circle>
+        </g>
+    </g>
+</svg>
